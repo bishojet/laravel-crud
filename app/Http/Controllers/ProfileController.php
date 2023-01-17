@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\profile;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class ProfileController extends Controller
 {
@@ -69,7 +70,7 @@ class ProfileController extends Controller
      */
     public function show(profile $profile)
     {
-        return view('profiles.show',compact('profile'));
+        return view('profiles.show', compact('profile'));
     }
 
     /**
@@ -80,7 +81,7 @@ class ProfileController extends Controller
      */
     public function edit(profile $profile)
     {
-        return view('profiles.edit',compact('profile'));
+        return view('profiles.edit', compact('profile'));
     }
 
     /**
