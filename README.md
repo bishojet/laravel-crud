@@ -1,4 +1,4 @@
-## Live step .....
+## Demo this project on local server (follow some step here) 
 
 1. Download from github
 2. create a database (laraval-crud)
